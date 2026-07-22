@@ -1,2 +1,2 @@
 # csl_recognition
-手语检测
+基于CNN和INT8量化的超轻量级手语检测
