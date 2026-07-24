@@ -1,0 +1,37 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# Project outputs
+outputs/
+
+# Collected data
+data/
+
+# MediaPipe model file
+hand_landmarker.task
+
+# ESP32 firmware build artifacts
+esp32_firmware/.pio/
+esp32_firmware/build/
+esp32_cam_firmware/.pio/
+esp32_cam_firmware/build/
+
+# User config files（.example.h 模板会提交，config.h 忽略）
+esp32_firmware/config/config.h
+esp32_cam_firmware/config/config.h
+
+# Training data from datasets
+train_data/
+
+# OS junk
+.DS_Store
+Thumbs.db
